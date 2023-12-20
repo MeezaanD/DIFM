@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="styling/style.css">
+	<script defer src="/src/script.js"></script>
+	<title>DIFM</title>
+</head>
+
+<body>
+	<div id="app">
+		<input type="text" id="searchInput" placeholder="Search Lists">
+		<form id="listForm">
+			<label for="title">Title:</label>
+			<input type="text" id="title" placeholder="Enter a title" required>
+			<label for="required">Required:</label>
+			<textarea id="required" placeholder="* Add space after each line" required></textarea>
+			<label for="steps">Steps:</label>
+			<textarea id="steps" placeholder="* Add space after each line" required></textarea>
+			<button id="generateButton" type="button">Generate List</button>
+		</form>
+		<div id="listContainer"></div>
+	</div>
+</body>
+
+</html>
